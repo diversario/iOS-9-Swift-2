@@ -27,16 +27,16 @@
                                     <constraint firstAttribute="height" constant="137" id="5Vw-0I-mrQ"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PuE-z3-zwn" userLabel="Logo container">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PuE-z3-zwn" userLabel="Logo container">
                                 <rect key="frame" x="125" y="0.0" width="350" height="307"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="saP-hq-CdR">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="saP-hq-CdR">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="154"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="350" id="bDJ-5G-16z"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="gIM-KU-OmB">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="gIM-KU-OmB">
                                         <rect key="frame" x="25" y="154" width="300" height="154"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="gIM-KU-OmB" secondAttribute="height" multiplier="131:67" id="HeU-Gb-cCz"/>

@@ -72,33 +72,42 @@ class ViewController: UIViewController {
         processOperation(currentOperation)
     }
     
+    @IBAction func onClearPress() {
+        playSound()
+        
+        lvalueStr = ""
+        rvalueStr = ""
+        currentOperation = .Empty
+        runningNumber = ""
+        result = ""
+        outputLabel.text = "0"
+    }
+    
     func processOperation(op: Operation) {
         playSound()
         
         if currentOperation != .Empty {
+            if runningNumber != "" {
+                rvalueStr = runningNumber
+                runningNumber = ""
+                
+                switch currentOperation {
+                case .Multiply: result = String(Double(lvalueStr)! * Double(rvalueStr)!)
+                    break
+                case .Divide: result = String(Double(lvalueStr)! / Double(rvalueStr)!)
+                    break
+                case .Add: result = String(Double(lvalueStr)! + Double(rvalueStr)!)
+                    break
+                case .Subtract: result = String(Double(lvalueStr)! - Double(rvalueStr)!)
+                    break
+                default: break
+                }
+                
+                lvalueStr = result
+                outputLabel.text = result
+            }
+            
             currentOperation = op
-            
-            if runningNumber == "" {
-                return
-            }
-            
-            rvalueStr = runningNumber
-            runningNumber = ""
-            
-            switch currentOperation {
-            case .Multiply: result = String(Double(lvalueStr)! * Double(rvalueStr)!)
-                break
-            case .Divide: result = String(Double(lvalueStr)! / Double(rvalueStr)!)
-                break
-            case .Add: result = String(Double(lvalueStr)! + Double(rvalueStr)!)
-                break
-            case .Subtract: result = String(Double(lvalueStr)! - Double(rvalueStr)!)
-                break
-            default: break
-            }
-            
-            lvalueStr = result
-            outputLabel.text = result
         } else {
             lvalueStr = runningNumber
             runningNumber = ""
