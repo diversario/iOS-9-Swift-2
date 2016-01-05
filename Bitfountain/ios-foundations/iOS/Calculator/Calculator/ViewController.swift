@@ -9,8 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var displayLabel: UILabel!
     
     var displayValue: String?
     var previousValue: Double?
