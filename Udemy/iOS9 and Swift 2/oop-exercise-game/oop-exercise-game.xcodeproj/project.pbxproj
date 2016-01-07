@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20748DB21C3CEA2E00E5DA0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20748DB11C3CEA2E00E5DA0F /* AppDelegate.swift */; };
+		20748DB41C3CEA2E00E5DA0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20748DB31C3CEA2E00E5DA0F /* ViewController.swift */; };
+		20748DB71C3CEA2E00E5DA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20748DB51C3CEA2E00E5DA0F /* Main.storyboard */; };
+		20748DB91C3CEA2E00E5DA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20748DB81C3CEA2E00E5DA0F /* Assets.xcassets */; };
+		20748DBC1C3CEA2E00E5DA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20748DBA1C3CEA2E00E5DA0F /* LaunchScreen.storyboard */; };
+		20748DC51C3CEBEA00E5DA0F /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20748DC41C3CEBEA00E5DA0F /* Minecraft.ttf */; };
+		20748DC71C3CF1CC00E5DA0F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20748DC61C3CF1CC00E5DA0F /* Player.swift */; };
+		20748DC91C3D841A00E5DA0F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20748DC81C3D841A00E5DA0F /* Game.swift */; };
+		20748DCB1C3DFF6000E5DA0F /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20748DCA1C3DFF6000E5DA0F /* Orc.swift */; };
+		20748DCD1C3DFFD400E5DA0F /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20748DCC1C3DFFD400E5DA0F /* Soldier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20748DAE1C3CEA2E00E5DA0F /* oop-exercise-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oop-exercise-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20748DB11C3CEA2E00E5DA0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20748DB31C3CEA2E00E5DA0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20748DB61C3CEA2E00E5DA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20748DB81C3CEA2E00E5DA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20748DBB1C3CEA2E00E5DA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20748DBD1C3CEA2E00E5DA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20748DC41C3CEBEA00E5DA0F /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		20748DC61C3CF1CC00E5DA0F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		20748DC81C3D841A00E5DA0F /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		20748DCA1C3DFF6000E5DA0F /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
+		20748DCC1C3DFFD400E5DA0F /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20748DAB1C3CEA2E00E5DA0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20748DA51C3CEA2E00E5DA0F = {
+			isa = PBXGroup;
+			children = (
+				20748DB01C3CEA2E00E5DA0F /* oop-exercise-game */,
+				20748DAF1C3CEA2E00E5DA0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20748DAF1C3CEA2E00E5DA0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20748DAE1C3CEA2E00E5DA0F /* oop-exercise-game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20748DB01C3CEA2E00E5DA0F /* oop-exercise-game */ = {
+			isa = PBXGroup;
+			children = (
+				20748DCE1C3E001600E5DA0F /* Characters */,
+				20748DB11C3CEA2E00E5DA0F /* AppDelegate.swift */,
+				20748DB31C3CEA2E00E5DA0F /* ViewController.swift */,
+				20748DB51C3CEA2E00E5DA0F /* Main.storyboard */,
+				20748DC81C3D841A00E5DA0F /* Game.swift */,
+				20748DB81C3CEA2E00E5DA0F /* Assets.xcassets */,
+				20748DC41C3CEBEA00E5DA0F /* Minecraft.ttf */,
+				20748DBA1C3CEA2E00E5DA0F /* LaunchScreen.storyboard */,
+				20748DBD1C3CEA2E00E5DA0F /* Info.plist */,
+			);
+			path = "oop-exercise-game";
+			sourceTree = "<group>";
+		};
+		20748DCE1C3E001600E5DA0F /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				20748DC61C3CF1CC00E5DA0F /* Player.swift */,
+				20748DCA1C3DFF6000E5DA0F /* Orc.swift */,
+				20748DCC1C3DFFD400E5DA0F /* Soldier.swift */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20748DAD1C3CEA2E00E5DA0F /* oop-exercise-game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20748DC01C3CEA2E00E5DA0F /* Build configuration list for PBXNativeTarget "oop-exercise-game" */;
+			buildPhases = (
+				20748DAA1C3CEA2E00E5DA0F /* Sources */,
+				20748DAB1C3CEA2E00E5DA0F /* Frameworks */,
+				20748DAC1C3CEA2E00E5DA0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oop-exercise-game";
+			productName = "oop-exercise-game";
+			productReference = 20748DAE1C3CEA2E00E5DA0F /* oop-exercise-game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20748DA61C3CEA2E00E5DA0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ilya Shaisultanov";
+				TargetAttributes = {
+					20748DAD1C3CEA2E00E5DA0F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5F6QZASLQP;
+					};
+				};
+			};
+			buildConfigurationList = 20748DA91C3CEA2E00E5DA0F /* Build configuration list for PBXProject "oop-exercise-game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20748DA51C3CEA2E00E5DA0F;
+			productRefGroup = 20748DAF1C3CEA2E00E5DA0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20748DAD1C3CEA2E00E5DA0F /* oop-exercise-game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20748DAC1C3CEA2E00E5DA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20748DBC1C3CEA2E00E5DA0F /* LaunchScreen.storyboard in Resources */,
+				20748DB91C3CEA2E00E5DA0F /* Assets.xcassets in Resources */,
+				20748DC51C3CEBEA00E5DA0F /* Minecraft.ttf in Resources */,
+				20748DB71C3CEA2E00E5DA0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20748DAA1C3CEA2E00E5DA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20748DB41C3CEA2E00E5DA0F /* ViewController.swift in Sources */,
+				20748DC71C3CF1CC00E5DA0F /* Player.swift in Sources */,
+				20748DB21C3CEA2E00E5DA0F /* AppDelegate.swift in Sources */,
+				20748DCB1C3DFF6000E5DA0F /* Orc.swift in Sources */,
+				20748DCD1C3DFFD400E5DA0F /* Soldier.swift in Sources */,
+				20748DC91C3D841A00E5DA0F /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20748DB51C3CEA2E00E5DA0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20748DB61C3CEA2E00E5DA0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20748DBA1C3CEA2E00E5DA0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20748DBB1C3CEA2E00E5DA0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20748DBE1C3CEA2E00E5DA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20748DBF1C3CEA2E00E5DA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20748DC11C3CEA2E00E5DA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "oop-exercise-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.oop-exercise-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20748DC21C3CEA2E00E5DA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "oop-exercise-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.oop-exercise-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20748DA91C3CEA2E00E5DA0F /* Build configuration list for PBXProject "oop-exercise-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20748DBE1C3CEA2E00E5DA0F /* Debug */,
+				20748DBF1C3CEA2E00E5DA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20748DC01C3CEA2E00E5DA0F /* Build configuration list for PBXNativeTarget "oop-exercise-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20748DC11C3CEA2E00E5DA0F /* Debug */,
+				20748DC21C3CEA2E00E5DA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20748DA61C3CEA2E00E5DA0F /* Project object */;
+}
