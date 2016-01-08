@@ -1,5 +1,5 @@
 //
-//  MonsterImg.swift
+//  SlugImage.swift
 //  MyLittleMonster
 //
 //  Created by Ilya Shaisultanov on 1/7/16.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MonsterImg: AnimatedImage {
+class SlugImg: AnimatedImage {
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -17,10 +17,10 @@ class MonsterImg: AnimatedImage {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        self.idlePrefix = "idle"
+        self.idlePrefix = "pink_idle"
         self.idleCount = 4
-        self.deadPrefix = "dead"
-        self.deadCount = 5
+        self.deadPrefix = "pink_dead"
+        self.deadCount = 3
         
         playIdleAnimation()
     }
