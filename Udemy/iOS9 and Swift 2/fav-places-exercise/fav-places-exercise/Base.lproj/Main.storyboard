@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="fav_places_exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kinkykade" translatesAutoresizingMaskIntoConstraints="NO" id="HtN-LP-Rob">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="p3I-2y-r8q">
+                                <rect key="frame" x="160" y="530" width="280" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EK0-a5-XTC" customClass="SFButton" customModule="fav_places_exercise" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.33120293032073167" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="KC7-FV-ZQn"/>
+                                            <constraint firstAttribute="width" constant="120" id="zVA-ZO-zcP"/>
+                                        </constraints>
+                                        <state key="normal" title="About"/>
+                                        <connections>
+                                            <segue destination="oS7-9Q-HDO" kind="show" id="ScQ-Y2-B1n"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKf-MH-d9e" customClass="SFButton" customModule="fav_places_exercise" customModuleProvider="target">
+                                        <rect key="frame" x="160" y="0.0" width="120" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.33120293029999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="C2l-oC-upY"/>
+                                            <constraint firstAttribute="width" constant="120" id="Ugw-ci-C7y"/>
+                                        </constraints>
+                                        <state key="normal" title="Photos"/>
+                                        <connections>
+                                            <segue destination="rYu-nC-fYp" kind="show" id="Lfn-xl-5qG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="nkB-8h-NKK">
+                                <rect key="frame" x="20" y="20" width="240" height="142"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTk-H9-sc5">
+                                        <rect key="frame" x="0.0" y="0.0" width="99" height="71"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="60"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Francisco" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0v-yD-LXq">
+                                        <rect key="frame" x="0.0" y="71" width="239.5" height="71"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="60"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="7uz-ld-2qh"/>
+                                    <constraint firstAttribute="width" constant="240" id="BVm-yR-mAN"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nkB-8h-NKK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0zg-CL-5Zc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HtN-LP-Rob" secondAttribute="bottom" id="CXq-E2-D4F"/>
+                            <constraint firstItem="p3I-2y-r8q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DsF-e7-kIz"/>
+                            <constraint firstItem="HtN-LP-Rob" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="IOP-e4-CEG"/>
+                            <constraint firstItem="nkB-8h-NKK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="Kdf-Ri-dAJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HtN-LP-Rob" secondAttribute="trailing" constant="-20" id="UNF-Ju-gyL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="p3I-2y-r8q" secondAttribute="bottom" constant="30" id="Z08-h9-eeA"/>
+                            <constraint firstItem="HtN-LP-Rob" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="hRA-Or-tJI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="464"/>
+        </scene>
+        <!--Photo Page View Controller-->
+        <scene sceneID="mYX-pg-Fgz">
+            <objects>
+                <viewController id="rYu-nC-fYp" customClass="PhotoPageViewController" customModule="fav_places_exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zsq-0E-OZb"/>
+                        <viewControllerLayoutGuide type="bottom" id="JRH-XX-Hb2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yyH-w5-7ze">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5c7-ht-P9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1093" y="805"/>
+        </scene>
+        <!--About Page View Controller-->
+        <scene sceneID="Fmf-L8-onI">
+            <objects>
+                <viewController id="oS7-9Q-HDO" customClass="AboutPageViewController" customModule="fav_places_exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uAa-wf-B6l"/>
+                        <viewControllerLayoutGuide type="bottom" id="IES-aG-QAn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oTM-Sd-g6d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ggb" translatesAutoresizingMaskIntoConstraints="NO" id="fdm-Pm-3HA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="260"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="260" id="bE6-pa-Ix0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psA-bU-fMi">
+                                <rect key="frame" x="20" y="270" width="560" height="310"/>
+                                <mutableString key="text">San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California and the only consolidated city-county in California. San Francisco encompasses a land area of about 46.9 square miles (121 km2) on the northern end of the San Francisco Peninsula, which makes it the smallest county in the state. It has a density of about 18,187 people per square mile, making it the most densely settled large city (population greater than 200,000) in the state of California and the second-most densely populated major city in the United States after New York City. San Francisco is the fourth-most populous city in California, after Los Angeles, San Diego and San Jose, and the 13th-most populous city in the United States—with a Census-estimated 2014 population of 852,469. The city and its surrounding areas are known as the San Francisco Bay Area, and are a part of the larger OMB designated San Jose-San Francisco-Oakland combined statistical area, the fifth most populous in the nation with an estimated population of 8.6 million.</mutableString>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMG-ww-Vb8">
+                                <rect key="frame" x="263" y="112" width="75" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52e-lW-oFe" customClass="BackButton" customModule="fav_places_exercise" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="67" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4z5-H2-Oew"/>
+                                    <constraint firstAttribute="width" constant="67" id="Gvm-1J-fT6"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="back:" destination="oS7-9Q-HDO" eventType="touchUpInside" id="WWb-lN-tBA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zMG-ww-Vb8" firstAttribute="centerX" secondItem="fdm-Pm-3HA" secondAttribute="centerX" id="7yP-mr-lf6"/>
+                            <constraint firstItem="psA-bU-fMi" firstAttribute="top" secondItem="fdm-Pm-3HA" secondAttribute="bottom" constant="10" id="FxX-yI-3GV"/>
+                            <constraint firstItem="psA-bU-fMi" firstAttribute="leading" secondItem="oTM-Sd-g6d" secondAttribute="leadingMargin" id="HGp-sX-1ql"/>
+                            <constraint firstItem="52e-lW-oFe" firstAttribute="leading" secondItem="oTM-Sd-g6d" secondAttribute="leadingMargin" id="LFZ-G3-PQk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fdm-Pm-3HA" secondAttribute="trailing" constant="-20" id="WuX-oL-Mag"/>
+                            <constraint firstItem="zMG-ww-Vb8" firstAttribute="centerY" secondItem="fdm-Pm-3HA" secondAttribute="centerY" id="X9a-nL-aED"/>
+                            <constraint firstItem="psA-bU-fMi" firstAttribute="trailing" secondItem="oTM-Sd-g6d" secondAttribute="trailingMargin" id="YHF-dG-Uc3"/>
+                            <constraint firstItem="IES-aG-QAn" firstAttribute="top" secondItem="psA-bU-fMi" secondAttribute="bottom" constant="20" id="kpp-Vm-cq1"/>
+                            <constraint firstItem="52e-lW-oFe" firstAttribute="top" secondItem="uAa-wf-B6l" secondAttribute="bottom" constant="8" id="lyW-d8-p3T"/>
+                            <constraint firstItem="fdm-Pm-3HA" firstAttribute="top" secondItem="oTM-Sd-g6d" secondAttribute="topMargin" id="rfp-g1-GXh"/>
+                            <constraint firstItem="fdm-Pm-3HA" firstAttribute="leading" secondItem="oTM-Sd-g6d" secondAttribute="leadingMargin" constant="-20" id="rww-XF-fU2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHA-kb-tYr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1093" y="-58"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ggb" width="1600" height="695"/>
+        <image name="kinkykade" width="2880" height="1800"/>
+    </resources>
+</document>

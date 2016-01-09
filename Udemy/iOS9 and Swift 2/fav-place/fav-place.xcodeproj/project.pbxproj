@@ -12,6 +12,7 @@
 		20FDCBFD1C40BBEF007D87F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FDCBFB1C40BBEF007D87F1 /* Main.storyboard */; };
 		20FDCBFF1C40BBEF007D87F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FDCBFE1C40BBEF007D87F1 /* Assets.xcassets */; };
 		20FDCC021C40BBEF007D87F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FDCC001C40BBEF007D87F1 /* LaunchScreen.storyboard */; };
+		20FDCC0A1C40CDCB007D87F1 /* DetailVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDCC091C40CDCB007D87F1 /* DetailVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		20FDCBFE1C40BBEF007D87F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20FDCC011C40BBEF007D87F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20FDCC031C40BBEF007D87F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FDCC091C40CDCB007D87F1 /* DetailVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				20FDCBFE1C40BBEF007D87F1 /* Assets.xcassets */,
 				20FDCC001C40BBEF007D87F1 /* LaunchScreen.storyboard */,
 				20FDCC031C40BBEF007D87F1 /* Info.plist */,
+				20FDCC091C40CDCB007D87F1 /* DetailVCViewController.swift */,
 			);
 			path = "fav-place";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				20FDCBFA1C40BBEF007D87F1 /* ViewController.swift in Sources */,
 				20FDCBF81C40BBEF007D87F1 /* AppDelegate.swift in Sources */,
+				20FDCC0A1C40CDCB007D87F1 /* DetailVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
