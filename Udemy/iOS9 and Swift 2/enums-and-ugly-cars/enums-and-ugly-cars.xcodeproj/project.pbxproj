@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20792CEA1C418982002DA601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20792CE91C418982002DA601 /* AppDelegate.swift */; };
+		20792CEC1C418982002DA601 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20792CEB1C418982002DA601 /* ViewController.swift */; };
+		20792CEF1C418982002DA601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20792CED1C418982002DA601 /* Main.storyboard */; };
+		20792CF11C418982002DA601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20792CF01C418982002DA601 /* Assets.xcassets */; };
+		20792CF41C418982002DA601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20792CF21C418982002DA601 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20792CE61C418982002DA601 /* enums-and-ugly-cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "enums-and-ugly-cars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20792CE91C418982002DA601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20792CEB1C418982002DA601 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20792CEE1C418982002DA601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20792CF01C418982002DA601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20792CF31C418982002DA601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20792CF51C418982002DA601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20792CE31C418982002DA601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20792CDD1C418982002DA601 = {
+			isa = PBXGroup;
+			children = (
+				20792CE81C418982002DA601 /* enums-and-ugly-cars */,
+				20792CE71C418982002DA601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20792CE71C418982002DA601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20792CE61C418982002DA601 /* enums-and-ugly-cars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20792CE81C418982002DA601 /* enums-and-ugly-cars */ = {
+			isa = PBXGroup;
+			children = (
+				20792CE91C418982002DA601 /* AppDelegate.swift */,
+				20792CEB1C418982002DA601 /* ViewController.swift */,
+				20792CED1C418982002DA601 /* Main.storyboard */,
+				20792CF01C418982002DA601 /* Assets.xcassets */,
+				20792CF21C418982002DA601 /* LaunchScreen.storyboard */,
+				20792CF51C418982002DA601 /* Info.plist */,
+			);
+			path = "enums-and-ugly-cars";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20792CE51C418982002DA601 /* enums-and-ugly-cars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20792CF81C418982002DA601 /* Build configuration list for PBXNativeTarget "enums-and-ugly-cars" */;
+			buildPhases = (
+				20792CE21C418982002DA601 /* Sources */,
+				20792CE31C418982002DA601 /* Frameworks */,
+				20792CE41C418982002DA601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "enums-and-ugly-cars";
+			productName = "enums-and-ugly-cars";
+			productReference = 20792CE61C418982002DA601 /* enums-and-ugly-cars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20792CDE1C418982002DA601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ilya Shaisultanov";
+				TargetAttributes = {
+					20792CE51C418982002DA601 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5F6QZASLQP;
+					};
+				};
+			};
+			buildConfigurationList = 20792CE11C418982002DA601 /* Build configuration list for PBXProject "enums-and-ugly-cars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20792CDD1C418982002DA601;
+			productRefGroup = 20792CE71C418982002DA601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20792CE51C418982002DA601 /* enums-and-ugly-cars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20792CE41C418982002DA601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20792CF41C418982002DA601 /* LaunchScreen.storyboard in Resources */,
+				20792CF11C418982002DA601 /* Assets.xcassets in Resources */,
+				20792CEF1C418982002DA601 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20792CE21C418982002DA601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20792CEC1C418982002DA601 /* ViewController.swift in Sources */,
+				20792CEA1C418982002DA601 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20792CED1C418982002DA601 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20792CEE1C418982002DA601 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20792CF21C418982002DA601 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20792CF31C418982002DA601 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20792CF61C418982002DA601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20792CF71C418982002DA601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20792CF91C418982002DA601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "enums-and-ugly-cars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.enums-and-ugly-cars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20792CFA1C418982002DA601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "enums-and-ugly-cars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.enums-and-ugly-cars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20792CE11C418982002DA601 /* Build configuration list for PBXProject "enums-and-ugly-cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20792CF61C418982002DA601 /* Debug */,
+				20792CF71C418982002DA601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20792CF81C418982002DA601 /* Build configuration list for PBXNativeTarget "enums-and-ugly-cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20792CF91C418982002DA601 /* Debug */,
+				20792CFA1C418982002DA601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20792CDE1C418982002DA601 /* Project object */;
+}

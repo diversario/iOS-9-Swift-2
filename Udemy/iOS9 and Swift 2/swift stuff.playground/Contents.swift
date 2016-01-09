@@ -204,3 +204,30 @@ rect.area
 
 
 /*********************************optionals***********************************/
+
+
+
+/*************************extension************************/
+
+var account1 = 400.2
+var account2 = 200.1
+var account3 = 100.4
+
+print("$\(account1)")
+print("$\(account2)")
+print("$\(account3)")
+
+
+extension Double {
+    var currency: String {
+        return "$\(self)"
+    }
+}
+
+var account4 = 400.2
+var account5 = 200.1
+var account6 = 100.4
+
+print(account4.currency)
+print(account5.currency)
+print(account6.currency)
