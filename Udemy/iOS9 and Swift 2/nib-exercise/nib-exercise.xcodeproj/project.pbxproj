@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20FDCBAA1C40AB6E007D87F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDCBA91C40AB6E007D87F1 /* AppDelegate.swift */; };
+		20FDCBB11C40AB6E007D87F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FDCBB01C40AB6E007D87F1 /* Assets.xcassets */; };
+		20FDCBB41C40AB6E007D87F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FDCBB21C40AB6E007D87F1 /* LaunchScreen.storyboard */; };
+		20FDCBBF1C40AC29007D87F1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDCBBD1C40AC29007D87F1 /* FirstViewController.swift */; };
+		20FDCBC01C40AC29007D87F1 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FDCBBE1C40AC29007D87F1 /* FirstViewController.xib */; };
+		20FDCBC31C40AD6F007D87F1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDCBC11C40AD6F007D87F1 /* SecondViewController.swift */; };
+		20FDCBC41C40AD6F007D87F1 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FDCBC21C40AD6F007D87F1 /* SecondViewController.xib */; };
+		20FDCBC71C40AE11007D87F1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDCBC51C40AE11007D87F1 /* ThirdViewController.swift */; };
+		20FDCBC81C40AE11007D87F1 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FDCBC61C40AE11007D87F1 /* ThirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20FDCBA61C40AB6E007D87F1 /* nib-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nib-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FDCBA91C40AB6E007D87F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20FDCBB01C40AB6E007D87F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FDCBB31C40AB6E007D87F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20FDCBB51C40AB6E007D87F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FDCBBD1C40AC29007D87F1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		20FDCBBE1C40AC29007D87F1 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		20FDCBC11C40AD6F007D87F1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		20FDCBC21C40AD6F007D87F1 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		20FDCBC51C40AE11007D87F1 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		20FDCBC61C40AE11007D87F1 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FDCBA31C40AB6E007D87F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20FDCB9D1C40AB6E007D87F1 = {
+			isa = PBXGroup;
+			children = (
+				20FDCBA81C40AB6E007D87F1 /* nib-exercise */,
+				20FDCBA71C40AB6E007D87F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20FDCBA71C40AB6E007D87F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FDCBA61C40AB6E007D87F1 /* nib-exercise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FDCBA81C40AB6E007D87F1 /* nib-exercise */ = {
+			isa = PBXGroup;
+			children = (
+				20FDCBBC1C40AB90007D87F1 /* Controllers */,
+				20FDCBBB1C40AB88007D87F1 /* Views */,
+				20FDCBA91C40AB6E007D87F1 /* AppDelegate.swift */,
+				20FDCBB01C40AB6E007D87F1 /* Assets.xcassets */,
+				20FDCBB21C40AB6E007D87F1 /* LaunchScreen.storyboard */,
+				20FDCBB51C40AB6E007D87F1 /* Info.plist */,
+			);
+			path = "nib-exercise";
+			sourceTree = "<group>";
+		};
+		20FDCBBB1C40AB88007D87F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20FDCBBE1C40AC29007D87F1 /* FirstViewController.xib */,
+				20FDCBC21C40AD6F007D87F1 /* SecondViewController.xib */,
+				20FDCBC61C40AE11007D87F1 /* ThirdViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		20FDCBBC1C40AB90007D87F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20FDCBBD1C40AC29007D87F1 /* FirstViewController.swift */,
+				20FDCBC11C40AD6F007D87F1 /* SecondViewController.swift */,
+				20FDCBC51C40AE11007D87F1 /* ThirdViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20FDCBA51C40AB6E007D87F1 /* nib-exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FDCBB81C40AB6E007D87F1 /* Build configuration list for PBXNativeTarget "nib-exercise" */;
+			buildPhases = (
+				20FDCBA21C40AB6E007D87F1 /* Sources */,
+				20FDCBA31C40AB6E007D87F1 /* Frameworks */,
+				20FDCBA41C40AB6E007D87F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nib-exercise";
+			productName = "nib-exercise";
+			productReference = 20FDCBA61C40AB6E007D87F1 /* nib-exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20FDCB9E1C40AB6E007D87F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ilya Shaisultanov";
+				TargetAttributes = {
+					20FDCBA51C40AB6E007D87F1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5F6QZASLQP;
+					};
+				};
+			};
+			buildConfigurationList = 20FDCBA11C40AB6E007D87F1 /* Build configuration list for PBXProject "nib-exercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20FDCB9D1C40AB6E007D87F1;
+			productRefGroup = 20FDCBA71C40AB6E007D87F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20FDCBA51C40AB6E007D87F1 /* nib-exercise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FDCBA41C40AB6E007D87F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FDCBC41C40AD6F007D87F1 /* SecondViewController.xib in Resources */,
+				20FDCBB41C40AB6E007D87F1 /* LaunchScreen.storyboard in Resources */,
+				20FDCBC01C40AC29007D87F1 /* FirstViewController.xib in Resources */,
+				20FDCBC81C40AE11007D87F1 /* ThirdViewController.xib in Resources */,
+				20FDCBB11C40AB6E007D87F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FDCBA21C40AB6E007D87F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FDCBC31C40AD6F007D87F1 /* SecondViewController.swift in Sources */,
+				20FDCBAA1C40AB6E007D87F1 /* AppDelegate.swift in Sources */,
+				20FDCBC71C40AE11007D87F1 /* ThirdViewController.swift in Sources */,
+				20FDCBBF1C40AC29007D87F1 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20FDCBB21C40AB6E007D87F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FDCBB31C40AB6E007D87F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20FDCBB61C40AB6E007D87F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20FDCBB71C40AB6E007D87F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20FDCBB91C40AB6E007D87F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nib-exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.nib-exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20FDCBBA1C40AB6E007D87F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nib-exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.nib-exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20FDCBA11C40AB6E007D87F1 /* Build configuration list for PBXProject "nib-exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FDCBB61C40AB6E007D87F1 /* Debug */,
+				20FDCBB71C40AB6E007D87F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FDCBB81C40AB6E007D87F1 /* Build configuration list for PBXNativeTarget "nib-exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FDCBB91C40AB6E007D87F1 /* Debug */,
+				20FDCBBA1C40AB6E007D87F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20FDCB9E1C40AB6E007D87F1 /* Project object */;
+}
