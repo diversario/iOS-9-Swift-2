@@ -13,6 +13,11 @@
 		200B24601C4614AC0087089F /* fav_movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 200B245E1C4614AC0087089F /* fav_movies.xcdatamodeld */; };
 		200B24621C4614AC0087089F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200B24611C4614AC0087089F /* Assets.xcassets */; };
 		200B24651C4614AC0087089F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200B24631C4614AC0087089F /* LaunchScreen.storyboard */; };
+		200B24701C46A63B0087089F /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B246F1C46A63B0087089F /* RoundedImage.swift */; };
+		200B24721C46AF5C0087089F /* AddMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B24711C46AF5C0087089F /* AddMovieVC.swift */; };
+		200B24751C47444B0087089F /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B24731C47444B0087089F /* Movie+CoreDataProperties.swift */; };
+		200B24761C47444B0087089F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B24741C47444B0087089F /* Movie.swift */; };
+		200B247A1C4744BB0087089F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B24791C4744BB0087089F /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		200B24611C4614AC0087089F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		200B24641C4614AC0087089F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		200B24661C4614AC0087089F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200B246F1C46A63B0087089F /* RoundedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		200B24711C46AF5C0087089F /* AddMovieVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieVC.swift; sourceTree = "<group>"; };
+		200B24731C47444B0087089F /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "../Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		200B24741C47444B0087089F /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../Movie.swift; sourceTree = "<group>"; };
+		200B24791C4744BB0087089F /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,8 @@
 		200B246C1C46293B0087089F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				200B24731C47444B0087089F /* Movie+CoreDataProperties.swift */,
+				200B24741C47444B0087089F /* Movie.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -79,6 +91,8 @@
 		200B246D1C46293F0087089F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				200B246F1C46A63B0087089F /* RoundedImage.swift */,
+				200B24791C4744BB0087089F /* MovieCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -87,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				200B24591C4614AC0087089F /* ViewController.swift */,
+				200B24711C46AF5C0087089F /* AddMovieVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -163,8 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200B24761C47444B0087089F /* Movie.swift in Sources */,
 				200B245A1C4614AC0087089F /* ViewController.swift in Sources */,
+				200B247A1C4744BB0087089F /* MovieCell.swift in Sources */,
+				200B24721C46AF5C0087089F /* AddMovieVC.swift in Sources */,
+				200B24701C46A63B0087089F /* RoundedImage.swift in Sources */,
 				200B24601C4614AC0087089F /* fav_movies.xcdatamodeld in Sources */,
+				200B24751C47444B0087089F /* Movie+CoreDataProperties.swift in Sources */,
 				200B24581C4614AC0087089F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
