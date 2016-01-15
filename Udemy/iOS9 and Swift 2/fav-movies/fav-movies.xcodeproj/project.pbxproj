@@ -19,6 +19,7 @@
 		200B24761C47444B0087089F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B24741C47444B0087089F /* Movie.swift */; };
 		200B247A1C4744BB0087089F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B24791C4744BB0087089F /* MovieCell.swift */; };
 		200B247E1C4881FF0087089F /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B247D1C4881FF0087089F /* MovieDetailVC.swift */; };
+		200B24801C495CF20087089F /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B247F1C495CF20087089F /* FancyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		200B24741C47444B0087089F /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../Movie.swift; sourceTree = "<group>"; };
 		200B24791C4744BB0087089F /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		200B247D1C4881FF0087089F /* MovieDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
+		200B247F1C495CF20087089F /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				200B246F1C46A63B0087089F /* RoundedImage.swift */,
 				200B24791C4744BB0087089F /* MovieCell.swift */,
+				200B247F1C495CF20087089F /* FancyButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				200B24601C4614AC0087089F /* fav_movies.xcdatamodeld in Sources */,
 				200B24751C47444B0087089F /* Movie+CoreDataProperties.swift in Sources */,
 				200B24581C4614AC0087089F /* AppDelegate.swift in Sources */,
+				200B24801C495CF20087089F /* FancyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

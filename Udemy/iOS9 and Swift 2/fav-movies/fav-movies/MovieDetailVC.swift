@@ -12,6 +12,7 @@ import WebKit
 class MovieDetailVC: UIViewController {
     var webView: WKWebView!
     @IBOutlet weak var container: UIView!
+    @IBOutlet weak var contentContainer: UIView!
     
     @IBOutlet weak var movieImage: UIImageView!
     @IBOutlet weak var movieTitle: UILabel!
@@ -41,6 +42,13 @@ class MovieDetailVC: UIViewController {
         let request = NSURLRequest(URL: url)
         
         webView.loadRequest(request)
+        
         container.addSubview(webView)
+        container.hidden = false
+    }
+    
+    @IBAction func onWKCloseTapped(sender: UIBarButtonItem) {
+        container.hidden = true
+        webView.removeFromSuperview()
     }
 }
