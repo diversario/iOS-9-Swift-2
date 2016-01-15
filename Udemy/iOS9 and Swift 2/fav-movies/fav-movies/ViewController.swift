@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         tableView.delegate = self
         tableView.dataSource = self
+
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -49,6 +50,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let movie = movies[indexPath.row]
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        let movieDetail = storyboard.instantiateViewControllerWithIdentifier("movieDetail") as! MovieDetailVC
+        
+        movieDetail.movie = movie
+        
+        navigationController?.pushViewController(movieDetail, animated: true)
     }
 }
 

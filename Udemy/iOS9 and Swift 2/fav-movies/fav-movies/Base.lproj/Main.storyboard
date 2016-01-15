@@ -83,7 +83,7 @@
                                             <outlet property="movieDesc" destination="q2c-a0-nbv" id="m4M-AD-SVy"/>
                                             <outlet property="movieImage" destination="DKt-QK-CIu" id="9qR-mV-5iX"/>
                                             <outlet property="movieTitle" destination="dqf-V5-38M" id="Guq-i3-Qnj"/>
-                                            <outlet property="movieURL" destination="W7y-Sh-cTC" id="gfM-RG-6Y7"/>
+                                            <outlet property="movieURL" destination="W7y-Sh-cTC" id="bG7-ZG-Aeq"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -214,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="2204" y="214"/>
         </scene>
-        <!--View Controller-->
+        <!--Movie DetailVC-->
         <scene sceneID="0aq-rG-hb4">
             <objects>
-                <viewController id="FcV-tk-LMH" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movieDetail" id="FcV-tk-LMH" customClass="MovieDetailVC" customModule="fav_movies" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TGO-nF-3z0"/>
                         <viewControllerLayoutGuide type="bottom" id="B7z-Wb-wIb"/>
@@ -265,6 +265,9 @@ ription</string>
                                     <constraint firstAttribute="height" constant="30" id="ghA-Bt-NMn"/>
                                 </constraints>
                                 <state key="normal" title="See on IMDB"/>
+                                <connections>
+                                    <action selector="onLinkTapped:" destination="FcV-tk-LMH" eventType="touchUpInside" id="HpU-GA-TGy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -280,6 +283,13 @@ ription</string>
                             <constraint firstItem="B7z-Wb-wIb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="lXQ-JV-Qd8" secondAttribute="bottom" constant="20" id="oIv-hU-eQY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="container" destination="Edr-oE-AMl" id="crN-lF-Djv"/>
+                        <outlet property="movieDesc" destination="2FD-2W-5ND" id="xLU-Sv-4gL"/>
+                        <outlet property="movieImage" destination="5Hm-CL-qHc" id="EO7-2R-FOq"/>
+                        <outlet property="moviePlot" destination="aDI-gL-1Oa" id="jWj-0Q-Irn"/>
+                        <outlet property="movieTitle" destination="gdw-Cy-zkW" id="VXN-M6-fPE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wtJ-Es-Pk2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
