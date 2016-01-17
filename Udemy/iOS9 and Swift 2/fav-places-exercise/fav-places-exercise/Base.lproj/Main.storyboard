@@ -204,8 +204,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="AkI-yp-etv">
-                                <rect key="frame" x="20" y="78" width="560" height="502"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="AkI-yp-etv">
+                                <rect key="frame" x="20" y="78" width="560" height="442"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="js8-Hc-RI8" userLabel="About">
                                         <rect key="frame" x="0.0" y="0.0" width="560" height="124"/>
@@ -229,15 +229,15 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qwd-bg-uVg" userLabel="History">
-                                        <rect key="frame" x="0.0" y="184" width="558" height="174"/>
+                                        <rect key="frame" x="0.0" y="154" width="558" height="174"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ke1-sh-3v9">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ke1-sh-3v9">
                                                 <rect key="frame" x="0.0" y="0.0" width="59" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="ahR-Em-2Hr">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="ahR-Em-2Hr">
                                                 <rect key="frame" x="0.0" y="31" width="558" height="144"/>
                                                 <string key="text">San Francisco (Spanish for Saint Francis) was founded on June 29, 1776, when colonists from Spain established Presidio of San Francisco at the Golden Gate and Mission San Francisco de Asís named for St. Francis of Assisi a few miles away.[9] The California Gold Rush of 1849 brought rapid growth, making it the largest city on the West Coast at the time. San Francisco became a consolidated city-county in 1856. After three-quarters of the city was destroyed by the 1906 earthquake and fire, San Francisco was quickly rebuilt, hosting the Panama-Pacific International Exposition nine years later.</string>
                                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="15"/>
@@ -246,8 +246,8 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="s8G-Qy-ja7" userLabel="Things to do">
-                                        <rect key="frame" x="0.0" y="418" width="133" height="85"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="s8G-Qy-ja7" userLabel="Things to do">
+                                        <rect key="frame" x="0.0" y="358" width="133" height="85"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Things To Do" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQU-jx-zxu">
                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="21"/>
@@ -257,8 +257,8 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Kh-N0-AdH">
                                                 <rect key="frame" x="0.0" y="31" width="133" height="54"/>
-                                                <string key="text">🔹 Have gay sex
-🔹 Get broke
+                                                <string key="text">🔹 Visit Castro
+🔹 Spend retirement money on a cup of coffee
 🔹 Raise VC capital</string>
                                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="15"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -266,15 +266,14 @@
                                             </label>
                                         </subviews>
                                         <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="154" width="133" height="85"/>
+                                            <rect key="frame" x="0.0" y="154" width="318" height="85"/>
                                         </variation>
                                     </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="js8-Hc-RI8" firstAttribute="top" secondItem="AkI-yp-etv" secondAttribute="top" id="HhR-zG-QXE"/>
                                 </constraints>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="78" width="560" height="238"/>
+                                <variation key="heightClass=compact">
                                     <mask key="subviews">
                                         <exclude reference="Qwd-bg-uVg"/>
                                     </mask>
