@@ -231,3 +231,38 @@ var account6 = 100.4
 print(account4.currency)
 print(account5.currency)
 print(account6.currency)
+
+
+
+
+/***********************************************************/
+
+var arr1 = [Int]()
+
+for var x = 0; x < 100; x++ {
+    if x % 2 == 0 {
+        arr1.append(x)
+    }
+}
+
+print(arr1)
+
+var arr2 = [Int]()
+
+//for var x = 0; x < 100; x++ {
+//    if x % 2 == 0 {
+//        arr2[x] = x
+//    }
+//}
+
+//print(arr2[0])
+
+var arr3 = [Int]()
+
+arr3[100] = 123
+
+print(arr3[100])
+arr3.count
+
+arr3.insert(999, atIndex: 50)
+print(arr3[50])
