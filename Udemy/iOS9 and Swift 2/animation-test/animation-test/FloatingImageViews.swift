@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class FloatingImageView {
+class FloatingImageViews {
     private var _views: [UIView]
     private let _superview: UIView
     private let _imgName: String
@@ -47,9 +47,10 @@ class FloatingImageView {
         let img = UIImage(named: self._imgName)
         let scale = CGFloat(arc4random_uniform(UInt32(7)) + 3) / 10.0
         let alpha = CGFloat(arc4random_uniform(UInt32(5) + 2)) / 10.0
+        let x_offset = CGFloat(arc4random_uniform(UInt32(100))) * -1
         
         let rect = CGRectMake(
-            0,
+            x_offset,
             CGFloat(arc4random_uniform(UInt32(self._superview.frame.height))),
             img!.size.width * -1 * scale,
             img!.size.height * -1 * scale

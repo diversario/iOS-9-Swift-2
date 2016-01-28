@@ -12,7 +12,7 @@
 		20F3C3C61C51309A00F9473C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F3C3C41C51309A00F9473C /* Main.storyboard */; };
 		20F3C3C81C51309A00F9473C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F3C3C71C51309A00F9473C /* Assets.xcassets */; };
 		20F3C3CB1C51309A00F9473C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F3C3C91C51309A00F9473C /* LaunchScreen.storyboard */; };
-		20F3C3D31C51E0F100F9473C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3C3D21C51E0F100F9473C /* File.swift */; };
+		20F3C3D31C51E0F100F9473C /* FloatingImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3C3D21C51E0F100F9473C /* FloatingImageViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		20F3C3C71C51309A00F9473C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F3C3CA1C51309A00F9473C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F3C3CC1C51309A00F9473C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20F3C3D21C51E0F100F9473C /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		20F3C3D21C51E0F100F9473C /* FloatingImageViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingImageViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		20F3C3B41C51309A00F9473C = {
 			isa = PBXGroup;
 			children = (
-				20F3C3BF1C51309A00F9473C /* animation-test */,
+				20F3C3BF1C51309A00F9473C /* floating-image-views */,
 				20F3C3BE1C51309A00F9473C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20F3C3BF1C51309A00F9473C /* animation-test */ = {
+		20F3C3BF1C51309A00F9473C /* floating-image-views */ = {
 			isa = PBXGroup;
 			children = (
 				20F3C3C01C51309A00F9473C /* AppDelegate.swift */,
@@ -62,8 +62,9 @@
 				20F3C3C71C51309A00F9473C /* Assets.xcassets */,
 				20F3C3C91C51309A00F9473C /* LaunchScreen.storyboard */,
 				20F3C3CC1C51309A00F9473C /* Info.plist */,
-				20F3C3D21C51E0F100F9473C /* File.swift */,
+				20F3C3D21C51E0F100F9473C /* FloatingImageViews.swift */,
 			);
+			name = "floating-image-views";
 			path = "animation-test";
 			sourceTree = "<group>";
 		};
@@ -140,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F3C3C31C51309A00F9473C /* ViewController.swift in Sources */,
-				20F3C3D31C51E0F100F9473C /* File.swift in Sources */,
+				20F3C3D31C51E0F100F9473C /* FloatingImageViews.swift in Sources */,
 				20F3C3C11C51309A00F9473C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +257,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "animation-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.animation-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.floating-image-views";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -267,7 +268,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "animation-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.animation-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversario.floating-image-views";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -291,6 +292,7 @@
 				20F3C3D11C51309A00F9473C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

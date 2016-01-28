@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        let floating = FloatingImageView(superview: self.view, imageName: "rain")
+        let floating = FloatingImageViews(superview: self.view, imageName: "rain")
         floating.animate(10)
     }
 }
